@@ -639,7 +639,9 @@
 
 /* ---- Host row (shield icon centering) ---- */
 
-.hostRow > .qwenpaw-space-item {
-  display: inline-flex;
-  align-items: center;
+.hostRow {
+  :global(.qwenpaw-space-item) {
+    display: inline-flex;
+    align-items: center;
+  }
 }
